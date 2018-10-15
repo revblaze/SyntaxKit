@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3O9-9H-4b8">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Theme-->
+        <scene sceneID="sMB-1C-znW">
+            <objects>
+                <viewController id="rDH-i5-PMA" customClass="SampleCode" customModule="Highlightr_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KHB-pu-zdq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gpv-YF-kPK">
+                                <rect key="frame" x="0.0" y="122" width="375" height="607"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="PkY-hh-hcw">
+                                        <rect key="frame" x="347" y="579" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAc-Qz-3VG">
+                                        <rect key="frame" x="149" y="549" width="76" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Theme" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNt-l3-O2S">
+                                        <rect key="frame" x="160" y="578" width="54" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="QNt-l3-O2S" firstAttribute="bottom" secondItem="gpv-YF-kPK" secondAttribute="bottomMargin" id="0Y9-ln-v0w"/>
+                                    <constraint firstItem="PkY-hh-hcw" firstAttribute="trailing" secondItem="gpv-YF-kPK" secondAttribute="trailingMargin" id="E5Y-Rz-vKg"/>
+                                    <constraint firstItem="QNt-l3-O2S" firstAttribute="top" secondItem="kAc-Qz-3VG" secondAttribute="bottom" constant="8" id="YEn-bX-y8j"/>
+                                    <constraint firstItem="PkY-hh-hcw" firstAttribute="bottom" secondItem="gpv-YF-kPK" secondAttribute="bottomMargin" id="iPz-rg-fJU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gpv-YF-kPK" firstAttribute="leading" secondItem="1fb-5j-yYs" secondAttribute="leading" id="3Lb-aW-cIz"/>
+                            <constraint firstItem="1fb-5j-yYs" firstAttribute="bottom" secondItem="gpv-YF-kPK" secondAttribute="bottom" id="GRF-Oc-f7o"/>
+                            <constraint firstItem="gpv-YF-kPK" firstAttribute="trailing" secondItem="1fb-5j-yYs" secondAttribute="trailing" id="LdB-lK-v4a"/>
+                            <constraint firstItem="gpv-YF-kPK" firstAttribute="top" secondItem="1fb-5j-yYs" secondAttribute="top" id="aph-lY-cIU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1fb-5j-yYs"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Performance Test" id="Yyq-UH-yNQ">
+                            <connections>
+                                <action selector="performanceTest:" destination="rDH-i5-PMA" id="pWD-5G-Jxs"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="dGc-EH-ByP"/>
+                        <barButtonItem title="Language" id="XDQ-Ig-b92">
+                            <connections>
+                                <action selector="pickLanguage:" destination="rDH-i5-PMA" id="ogJ-lC-3pM"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="Theme" prompt="Language" id="fha-iV-KEU">
+                        <barButtonItem key="rightBarButtonItem" title="Theme" id="Ob9-fN-V1F">
+                            <connections>
+                                <action selector="pickTheme:" destination="rDH-i5-PMA" id="sM5-tL-Cdk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="PkY-hh-hcw" id="194-TW-FLV"/>
+                        <outlet property="languageName" destination="kAc-Qz-3VG" id="LRo-h2-pXT"/>
+                        <outlet property="textToolbar" destination="QIx-o4-Tad" id="nui-FD-e8I"/>
+                        <outlet property="themeName" destination="QNt-l3-O2S" id="rah-05-oVO"/>
+                        <outlet property="viewPlaceholder" destination="gpv-YF-kPK" id="hqy-tk-5iC"/>
+                    </connections>
+                </viewController>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="QIx-o4-Tad">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <items>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="vmi-gw-FGb"/>
+                        <barButtonItem title="Done" id="1RB-KT-TPF">
+                            <connections>
+                                <action selector="hideKeyboard:" destination="rDH-i5-PMA" id="Dse-FV-Ikq"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BYG-Gv-2rM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="7.389162561576355"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bSR-Yb-Hgj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="3O9-9H-4b8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Pi3-EH-ngb">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="H7w-FP-ExR">
+                        <rect key="frame" x="0.0" y="729" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="rDH-i5-PMA" kind="relationship" relationship="rootViewController" id="q6Q-8q-zV5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xov-wT-9xg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-39.200000000000003" y="8.5457271364317844"/>
+        </scene>
+    </scenes>
+</document>
