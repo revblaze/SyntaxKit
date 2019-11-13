@@ -216,7 +216,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				91E58AC425EA774EFA9EE9EE /* [CP] Embed Pods Frameworks */,
-				AECC48C4F1DD6213B3CA864B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,7 +253,6 @@
 				8C9564231CE79E5200C0C7FA /* Frameworks */,
 				8C9564241CE79E5200C0C7FA /* Resources */,
 				99E9E4A243E20636B6862D85 /* [CP] Embed Pods Frameworks */,
-				9762E35CFD423139795C0974 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,7 +270,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -296,7 +294,7 @@
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Highlightr" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -390,7 +388,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
 				"${BUILT_PRODUCTS_DIR}/Highlightr-iOS/Highlightr.framework",
 			);
@@ -401,22 +399,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9762E35CFD423139795C0974 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		99E9E4A243E20636B6862D85 /* [CP] Embed Pods Frameworks */ = {
@@ -425,7 +408,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Highlightr-macOS/Highlightr.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -434,22 +417,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AECC48C4F1DD6213B3CA864B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -515,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -570,6 +539,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -689,6 +659,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 85N3S3DG8M;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Highlightr_OSX_Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -710,6 +681,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 85N3S3DG8M;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Highlightr_OSX_Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
