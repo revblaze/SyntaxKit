@@ -1,5 +1,5 @@
 # SyntaxKit Demo
-A solid framework for presenting a programming language on the iOS platform. Built for compatibility with real-time syntax highlighting when programming. Updated for iOS 12 and iPhone XS.
+A solid framework for presenting a programming language on the iOS and macOS platforms. Built for compatibility with real-time syntax highlighting when programming. Updated for iOS 13, macOS 10.15 (Catalina) and iPhone 11 Max/Pro.
 
 <img src="Cover.png" width="860" />
 
