@@ -29,6 +29,16 @@ class SampleCode: UIViewController {
     var highlightr : Highlightr!
     let textStorage = CodeAttributedString()
     
+    // Updated Hidden Status Bar Functionality
+    var isHidden = true {
+        didSet {
+            self.setNeedsStatusBarAppearanceUpdate()
+        }
+    }
+    override var prefersStatusBarHidden: Bool {
+        return isHidden
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -68,9 +78,8 @@ class SampleCode: UIViewController {
     
     @IBAction func pickLanguage(_ sender: AnyObject) {
         let languages = highlightr.supportedLanguages().sorted()
-        let indexOrNil = languages.index(of: languageName.text!.lowercased())
+        let indexOrNil = languages.firstIndex(of: languageName.text!.lowercased())
         let index = (indexOrNil == nil) ? 0 : indexOrNil!
-        
         ActionSheetStringPicker.show(withTitle: "Pick a Language",
                                      rows: languages,
                                      initialSelection: index,
@@ -126,7 +135,7 @@ class SampleCode: UIViewController {
     @IBAction func pickTheme(_ sender: AnyObject) {
         hideKeyboard(nil)
         let themes = highlightr.availableThemes()
-        let indexOrNil = themes.index(of: themeName.text!.lowercased())
+        let indexOrNil = themes.firstIndex(of: themeName.text!.lowercased())
         let index = (indexOrNil == nil) ? 0 : indexOrNil!
         
         ActionSheetStringPicker.show(withTitle: "Pick a Theme",
@@ -159,7 +168,7 @@ class SampleCode: UIViewController {
         themeName.textColor = invertColor(highlightr.theme.themeBackgroundColor).withAlphaComponent(0.5) //navigationController?.navigationBar.tintColor.withAlphaComponent(0.5)
         navigationController?.toolbar.barTintColor = highlightr.theme.themeBackgroundColor //navigationController?.navigationBar.barTintColor
         navigationController?.toolbar.tintColor = invertColor(highlightr.theme.themeBackgroundColor) //navigationController?.navigationBar.tintColor
-        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: invertColor(highlightr.theme.themeBackgroundColor) ?? UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: invertColor(highlightr.theme.themeBackgroundColor) ]
         
         // Update UIColor for Prompt Label
         for view in self.navigationController?.navigationBar.subviews ?? [] {
