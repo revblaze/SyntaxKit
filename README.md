@@ -13,11 +13,12 @@ None as of yet.
 
 ## Requirements
 Requires iOS 10.0 or later.
-<i>Please note that the app is being built with Swift 4.2</i>
+Requires macOS 10.11 or later.
+<i>Please note that the app is being built with Swift 5</i>
 
 ## MIT License
 
-Copyright © 2019 Justin Bush. All rights reserved.
+Copyright © 2020 Justin Bush. All rights reserved.
 
 ```
 Permission is hereby granted, free of charge, to any person obtaining a copy
