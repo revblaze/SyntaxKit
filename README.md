@@ -5,6 +5,9 @@ A solid framework for presenting a programming language on the iOS and macOS pla
 
 Based on the <a href="https://github.com/raspu/Highlightr">Highlightr framework</a>.
 
+## SwiftUI Build <sup>BETA</sup>
+Now available in the <a href="https://github.com/revblaze/SyntaxKit/tree/master/SwiftUI%20Demo">SwiftUI Demo</a> folder.
+
 ## Known Errors
 None as of yet.
 
