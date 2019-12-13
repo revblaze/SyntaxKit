@@ -10,7 +10,6 @@
 		030E92525FD99A6DFA2AC7FA62A96367 /* Highlightr-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB73AB41F12AC610EB97A440934D13 /* Highlightr-iOS-dummy.m */; };
 		034F1D31F427CA5AE15BF904A1FB2DB9 /* agate.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 53554529E1A581964052B1AA275AEEF5 /* agate.min.css */; };
 		046E97982F13443D1AF9AF42D4A5A3A7 /* tomorrow-night-eighties.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 720BFDD3C688D7F2FEEE46C6856E0814 /* tomorrow-night-eighties.min.css */; };
-		0494FF89E756C5CE9CD49BDA783D6352 /* Pods-Highlightr_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB09151AAC7B5FF0C48BDFBCF2496A7 /* Pods-Highlightr_Example-dummy.m */; };
 		04DFBE9D10AA4C099A0D6E692CB4568A /* atelier-seaside-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = DEF38B1440AF425049791C1E5CADA089 /* atelier-seaside-dark.min.css */; };
 		0514BC871E575192BAB5054BB6C047B7 /* atelier-plateau-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = D98CB32A6741362DE2FC1BDC3A78F599 /* atelier-plateau-dark.min.css */; };
 		06F76430ECC39549840E86AAE450C077 /* solarized-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = ABE1E4730401DFF921D54FF233359900 /* solarized-dark.min.css */; };
@@ -57,7 +56,6 @@
 		36FA8EDA976B3FAD405AA5F51CCF9B6A /* magula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C88C866F63F9D6964B0FC5139867F4BF /* magula.min.css */; };
 		37B5FFD28CE301C033A1DCB26F39226D /* atelier-heath-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A7654B85BAE99325D0843FC4AB64BBE5 /* atelier-heath-light.min.css */; };
 		37EB2388A27DD99A3B76F298F43BAB0B /* paraiso-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = DCF5FEFD9F9FE392BC6008E2D28454F1 /* paraiso-dark.min.css */; };
-		39C8589E0CFB0E54A044CA1B4EF7EAC3 /* Pods-Highlightr_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 184730E33B0BBCF1CEB9D311947AC09B /* Pods-Highlightr_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B64D0CFB93B7363705225310606BD56 /* solarized-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4CA363B1C481E8D9108EB3340A53F5A3 /* solarized-light.min.css */; };
 		3CB0B7ECE0A37BFAFB86EE3EED6B460C /* pojoaque.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 82991F583839308C14862DF5B63307B2 /* pojoaque.min.css */; };
 		3EE4D3C1397FAB855DF780A8D8FD75C4 /* atelier-sulphurpool-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A756131D0EABC8D0690F48DD7214D54E /* atelier-sulphurpool-light.min.css */; };
@@ -86,6 +84,7 @@
 		5D230C4E3F81810879D7BD9D7D844D43 /* tomorrow.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8F62258A6361F0992A37734DF124BFF8 /* tomorrow.min.css */; };
 		5DF4C8E754A9C21499AE0BD735E82CA2 /* sunburst.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 86E7C418572E80DDE84C2B559F137411 /* sunburst.min.css */; };
 		5E99A3596F5F638076161D06AB2CCC56 /* ActionSheetMultipleStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B792A194FC1F1970D5670987C591DF5B /* ActionSheetMultipleStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F4260A425D42DC6D88C2C8EB9731FA5 /* Pods-SyntaxKit iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D78EBB4FA625AC86EF95BEB3EB08292 /* Pods-SyntaxKit iOS-dummy.m */; };
 		61EE5ED52B7595E35B0BD57761511FED /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = C4108FB3230C09B56D410DF3DF439466 /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6203477D57B661A570E50457412D05FA /* tomorrow-night.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A85CBC715E35FAE20C61FE5D04FCEA46 /* tomorrow-night.min.css */; };
 		62DA7B256EF98A7056CF105D3D46C21A /* shades-of-purple.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 7E73B5AB957ECFD21B073C3901F006AE /* shades-of-purple.min.css */; };
@@ -108,12 +107,12 @@
 		750C0B29128B93EFBC62A3EA13ECF3A9 /* CodeAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6780C14291A422C534902AD9DF062B6A /* CodeAttributedString.swift */; };
 		760E21AA903FB05E7F8616F155BE26C9 /* Highlightr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AB3C0FAEBFA0FA4745BB7286E242FB /* Highlightr.swift */; };
 		77AC918F4A786E66B0BE558A6283E825 /* obsidian.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 5B6F029C852FE0870A515DC82F07AE71 /* obsidian.min.css */; };
-		799BD90EF2BD5635FFC4A6F0239FC707 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D61F1F790B8745A921695B99DFBCCB /* Cocoa.framework */; };
 		7A5FA2AF26C1E051151BC66F3C8639F8 /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D9228343ADB9EE1719C0FA371C89DF8C /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B20BA07E48AD34537A86E03A79C0A5D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826D707FC02F221A7C9310983AEEC8BF /* AppKit.framework */; };
 		7D317CD5850CD210796A3914AD0A4754 /* darcula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8FC425002FEB53C1DCE0E7B18AF9C7F0 /* darcula.min.css */; };
 		7F73032EAA7FD1F7B380B8214EF0FD67 /* isbl-editor-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = B4921D4E90CC78144A1F487FA09F1556 /* isbl-editor-light.min.css */; };
 		8205A8497B5847ED0A52014CEC057491 /* hopscotch.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 332B0202B30F70979FD664F86BF5B882 /* hopscotch.min.css */; };
+		82154DC2313B156EC43020A8473F9942 /* Pods-SyntaxKit macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F90D1BEE74C0B859BE7CB98C2F318BDD /* Pods-SyntaxKit macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83651C970DF8263E1D00CBAE47DC3665 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0940EE1B69792E9FF5B9FC8C2B4CB44A /* UIKit.framework */; };
 		83B0C3B94CC78E4E3A93AD2979B1214B /* darkula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2D189AABB097FEFEAC1141B225A94947 /* darkula.min.css */; };
 		8645328A7035F9492870C68DCDD9F328 /* agate.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 53554529E1A581964052B1AA275AEEF5 /* agate.min.css */; };
@@ -155,11 +154,11 @@
 		A865082D1EEFFB5B81061E2234DD581F /* a11y-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A2002A5688FCB5BDE8D5B677BF59E2D2 /* a11y-light.min.css */; };
 		A90137C4DB08D98F4E9806FD5A393CA9 /* idea.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 553C25716A9189340B974B5F1C0EA294 /* idea.min.css */; };
 		AA70272B45E85A94A56DD1DDE4D4E7C8 /* gml.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 586B2DFCC1371B95E4D53FEB39B622DF /* gml.min.css */; };
+		AAA1AAE87656F0530E60626A3C9BD277 /* Pods-SyntaxKit macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB9354E81AD9A3E26BF9F3C1536B3FD /* Pods-SyntaxKit macOS-dummy.m */; };
 		AC178CB212C1DE9847695797EBC45A9F /* atelier-estuary-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = E5FC17CB1AA0CAEBCE525C93B5D643F2 /* atelier-estuary-dark.min.css */; };
 		AE6BF32755EECD4BA02DB16FD8B2E67F /* routeros.min.css in Resources */ = {isa = PBXBuildFile; fileRef = F64658AB592D9353F6C62826E8E87AF9 /* routeros.min.css */; };
 		AED0CB031A9E80F557DF4E8C024BFE83 /* Highlightr-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D638EF4BA452C6D5A3DCDEC56118DA25 /* Highlightr-macOS-dummy.m */; };
 		B310836712FEBFF43C4DCA04241856A3 /* atelier-heath-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 6243929E57110E1623DD4C1F1C98552C /* atelier-heath-dark.min.css */; };
-		B4B97A94D9F5E63FFF1269E03D6D3FF9 /* Pods-Highlightr_OSX_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0666675A01B77C373C4A4CBE194B01A5 /* Pods-Highlightr_OSX_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5A949855841EE79C2E6A29FAAFB7A51 /* dracula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 6331D51011FA528FC7121D6BA4C006F3 /* dracula.min.css */; };
 		B70059CF199823F1CF8584647B3AC1C5 /* ocean.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC03C1622C09C36724674FDC2EABFBBF /* ocean.min.css */; };
 		B8959C7DD23B92ED38FFE7FDAB81F900 /* isbl-editor-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = B4921D4E90CC78144A1F487FA09F1556 /* isbl-editor-light.min.css */; };
@@ -196,7 +195,6 @@
 		D3AE76AF1BECB50D8F9592434E43D48D /* solarized-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = ABE1E4730401DFF921D54FF233359900 /* solarized-dark.min.css */; };
 		D47A85F0A572189A24DD6DC4118CB2CB /* highlight.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 69B0FD2EEC14A763B33EC304C530E190 /* highlight.min.js */; };
 		D4914936951748A2E1E5065C31CA25C6 /* darkula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2D189AABB097FEFEAC1141B225A94947 /* darkula.min.css */; };
-		D700163F0E5F53D68822323932FFCF90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC695F2011629C11D865EE3C7FFA8E2A /* Foundation.framework */; };
 		D8F11205B6488EB4640DB564069FA84B /* purebasic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 6C3D50062387F65C46F99C2B439C2C63 /* purebasic.min.css */; };
 		D96E1E8863FE2124ADCC8D8620BBFC2F /* shades-of-purple.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 7E73B5AB957ECFD21B073C3901F006AE /* shades-of-purple.min.css */; };
 		DCAF0C97FEBBAB2BC02163230F4AEDC3 /* gruvbox-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 5AC59C8271BF23A961BC87C9DC22E059 /* gruvbox-light.min.css */; };
@@ -219,8 +217,8 @@
 		ED94C56683C96D94CD7E77E0660943EF /* vs2015.min.css in Resources */ = {isa = PBXBuildFile; fileRef = CE5FEC232F6CC66A45F3B8835E43C6F0 /* vs2015.min.css */; };
 		EEC940B6249FAA0C63F8574DAD8B3A53 /* atelier-cave-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 45268B4CDDE929FA52DDAEDD91C25A21 /* atelier-cave-dark.min.css */; };
 		F0D1911FB1D6AD53C2E6D8343007B146 /* rainbow.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 90E4D08CC9CAA112551D350A0DCC6333 /* rainbow.min.css */; };
+		F0DAA6226BBCAA4F29979E7A4B0C6FE3 /* Pods-SyntaxKit iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 734A6CEB3D2CB05C6CAC89163EEE7F77 /* Pods-SyntaxKit iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1C0E8999A515777857CBF26734DD6C5 /* magula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C88C866F63F9D6964B0FC5139867F4BF /* magula.min.css */; };
-		F26FAAE5BFA5F01C0EE77F812D35DF69 /* Pods-Highlightr_OSX_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C26012737675FCDDD49912476DB00778 /* Pods-Highlightr_OSX_Example-dummy.m */; };
 		F280FF41A399E5DF555F8C190A7C6C10 /* routeros.min.css in Resources */ = {isa = PBXBuildFile; fileRef = F64658AB592D9353F6C62826E8E87AF9 /* routeros.min.css */; };
 		F54B7A50DF3CE37090DF14D31A62A093 /* grayscale.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 901A07076A2CA0512DDC4EA98025BB38 /* grayscale.min.css */; };
 		F5C64B6B4C71378214F352F159792F20 /* tomorrow-night-eighties.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 720BFDD3C688D7F2FEEE46C6856E0814 /* tomorrow-night-eighties.min.css */; };
@@ -230,34 +228,36 @@
 		FA2547CBC2F66522A4390A6B78C15787 /* hybrid.min.css in Resources */ = {isa = PBXBuildFile; fileRef = BA84CAB91D860333BC774100942AD467 /* hybrid.min.css */; };
 		FAC91FC349D67390250F05BB88DF38B8 /* atom-one-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 73941768E543807EC7DA149634F0A0FF /* atom-one-dark.min.css */; };
 		FAE26EB8877C1E25439EE8201557E200 /* atelier-heath-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A7654B85BAE99325D0843FC4AB64BBE5 /* atelier-heath-light.min.css */; };
+		FC5418C6C67F83C980B0619E8F4B74E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC695F2011629C11D865EE3C7FFA8E2A /* Foundation.framework */; };
 		FD3D02FDD04FD0543D188326EA9AB824 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 563368F1C6F109FC28E51820D77E1D46 /* ActionSheetDistancePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FDDCFB4641BF4321B8C6B48585CA8C23 /* atelier-cave-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 45268B4CDDE929FA52DDAEDD91C25A21 /* atelier-cave-dark.min.css */; };
 		FE206747A6CE6A66ABB2CEA0A253D487 /* monokai.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 12595132ED577B09821E3280B581B854 /* monokai.min.css */; };
+		FE80F3E08CBD4C74416A5B5CE8596D5F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D61F1F790B8745A921695B99DFBCCB /* Cocoa.framework */; };
 		FED7A1DD238B659AAE2A558F3F1EC3F3 /* atelier-lakeside-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4D3981CA66DDDA324BA79CB136084E22 /* atelier-lakeside-dark.min.css */; };
 		FFA9736B62C8174BBAA2F68FDA1A3DBA /* color-brewer.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 710BE43D2B582CE05DD4006E41C4DF44 /* color-brewer.min.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		359F1D7FAB7FEDF6AFE1E8D7DB25AAB2 /* PBXContainerItemProxy */ = {
+		1138B2D8BB6ED9D88471814A6F98545C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4B7AB76119455A902837FE59A745BCD4;
 			remoteInfo = "Highlightr-iOS";
 		};
-		C2444E0F0887E9BE2DBFEFC29CABE360 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 880685C9261F0C1129934DC3D5E9B732;
-			remoteInfo = "Highlightr-macOS";
-		};
-		C7B92A40DAC226774347B8890007D0B1 /* PBXContainerItemProxy */ = {
+		2D13EF8BA68041D4BC12343853E560C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A43B25DDF20FCB9228471F8F5135C866;
 			remoteInfo = "ActionSheetPicker-3.0";
+		};
+		A6C4430DD8A37CDD467629906D9FEE51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880685C9261F0C1129934DC3D5E9B732;
+			remoteInfo = "Highlightr-macOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -265,30 +265,29 @@
 		03970E8F9C64289FBA3FC5735029B4D1 /* ActionSheetPicker-3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-umbrella.h"; sourceTree = "<group>"; };
 		03EDDA3892C290A926680DD1A3916EBF /* isbl-editor-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "isbl-editor-dark.min.css"; path = "Pod/Assets/styles/isbl-editor-dark.min.css"; sourceTree = "<group>"; };
 		05E2C096283C189A9ED2D133896F7AF9 /* lightfair.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = lightfair.min.css; path = Pod/Assets/styles/lightfair.min.css; sourceTree = "<group>"; };
-		0666675A01B77C373C4A4CBE194B01A5 /* Pods-Highlightr_OSX_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Highlightr_OSX_Example-umbrella.h"; sourceTree = "<group>"; };
 		0940EE1B69792E9FF5B9FC8C2B4CB44A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		09C36D5F83D37F343DD89DEA76C04318 /* Pods-SyntaxKit macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SyntaxKit macOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		09EDEEDD1805EC24A28AE1BCB4ECA48F /* Highlightr-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Highlightr-iOS-prefix.pch"; sourceTree = "<group>"; };
+		0F74C5B0801DBC2D36B58623B8EBCFE3 /* Pods_SyntaxKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyntaxKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12595132ED577B09821E3280B581B854 /* monokai.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = monokai.min.css; path = Pod/Assets/styles/monokai.min.css; sourceTree = "<group>"; };
-		16818AEC41929C1AE465F72461BA61CB /* Pods-Highlightr_OSX_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Highlightr_OSX_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		171C305DDA364F445DC10DD9BE8BA755 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
 		171F9054835C596F5493F5169E9701B1 /* HTMLUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLUtils.swift; path = Pod/Classes/HTMLUtils.swift; sourceTree = "<group>"; };
-		184730E33B0BBCF1CEB9D311947AC09B /* Pods-Highlightr_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Highlightr_Example-umbrella.h"; sourceTree = "<group>"; };
 		199C545F09C4D6CAD250AB69FDEC816F /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		1B830DBBADF2065C95FD9BC8D1BBD842 /* Pods-SyntaxKit macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyntaxKit macOS.release.xcconfig"; sourceTree = "<group>"; };
 		1E1598C14AB80C02CC29BDB85AFCCB4B /* atelier-seaside-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-seaside-light.min.css"; path = "Pod/Assets/styles/atelier-seaside-light.min.css"; sourceTree = "<group>"; };
 		1E989CB27118DFACBCC72C35FE20E212 /* Highlightr-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Highlightr-iOS-Info.plist"; sourceTree = "<group>"; };
 		215FD858657743BF6A172C2916F850A0 /* mono-blue.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "mono-blue.min.css"; path = "Pod/Assets/styles/mono-blue.min.css"; sourceTree = "<group>"; };
-		21FB79A9E602F900DC3BEDE4BBD0EEE2 /* Pods-Highlightr_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Highlightr_Example.modulemap"; sourceTree = "<group>"; };
 		230ECA19583F2FCEC674C47C912E822B /* docco.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = docco.min.css; path = Pod/Assets/styles/docco.min.css; sourceTree = "<group>"; };
 		24B3DD86B23DD51D69BAE000F187BCFC /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
 		2581AF6E4A4240CCE492E71C5AAB8FF9 /* nord.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = nord.min.css; path = Pod/Assets/styles/nord.min.css; sourceTree = "<group>"; };
 		2D189AABB097FEFEAC1141B225A94947 /* darkula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = darkula.min.css; path = Pod/Assets/styles/darkula.min.css; sourceTree = "<group>"; };
 		3020DDB154A24ABD669A1D8979912CCC /* atelier-sulphurpool-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-sulphurpool-dark.min.css"; path = "Pod/Assets/styles/atelier-sulphurpool-dark.min.css"; sourceTree = "<group>"; };
 		31390B119E2F216F3B7652CA3A2F2BC6 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		3181B073DD61B61B985B81B3BC28F7DF /* Pods-SyntaxKit macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SyntaxKit macOS.modulemap"; sourceTree = "<group>"; };
 		332B0202B30F70979FD664F86BF5B882 /* hopscotch.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = hopscotch.min.css; path = Pod/Assets/styles/hopscotch.min.css; sourceTree = "<group>"; };
 		33AAF4EE9DAECA465B6ABE8D00377C02 /* codepen-embed.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "codepen-embed.min.css"; path = "Pod/Assets/styles/codepen-embed.min.css"; sourceTree = "<group>"; };
 		351D71D072A37215A274F0AEB58E99BA /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
 		3576BBAFA488765D4E8A1311289C3FF6 /* school-book.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "school-book.min.css"; path = "Pod/Assets/styles/school-book.min.css"; sourceTree = "<group>"; };
-		38DA542D3067266439E6A63433102209 /* Pods-Highlightr_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Highlightr_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		39B23698A5F730CC34F9B1608A2744A8 /* foundation.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = foundation.min.css; path = Pod/Assets/styles/foundation.min.css; sourceTree = "<group>"; };
 		3B7713491F78B8C0EEDEB0EA21FB7A10 /* a11y-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "a11y-dark.min.css"; path = "Pod/Assets/styles/a11y-dark.min.css"; sourceTree = "<group>"; };
 		3EE1652CC9E298B4383CCF503EF15877 /* brown-paper.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "brown-paper.min.css"; path = "Pod/Assets/styles/brown-paper.min.css"; sourceTree = "<group>"; };
@@ -298,7 +297,6 @@
 		464745EA2364DB04752C049DE0DB9B36 /* Highlightr-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Highlightr-macOS-Info.plist"; path = "../Highlightr-macOS/Highlightr-macOS-Info.plist"; sourceTree = "<group>"; };
 		4713F313E8021BE5E2F21CD49E0EE63C /* Highlightr-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Highlightr-macOS-umbrella.h"; path = "../Highlightr-macOS/Highlightr-macOS-umbrella.h"; sourceTree = "<group>"; };
 		47A92C482B0856E90D2372F927F1FF33 /* vs.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = vs.min.css; path = Pod/Assets/styles/vs.min.css; sourceTree = "<group>"; };
-		4AD7C49B32A11AB11C0C8026BF69EC61 /* Pods-Highlightr_OSX_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Highlightr_OSX_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4C1A1E85BB85132FBC95E2B4BA78B653 /* Highlightr-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Highlightr-macOS.xcconfig"; path = "../Highlightr-macOS/Highlightr-macOS.xcconfig"; sourceTree = "<group>"; };
 		4CA363B1C481E8D9108EB3340A53F5A3 /* solarized-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "solarized-light.min.css"; path = "Pod/Assets/styles/solarized-light.min.css"; sourceTree = "<group>"; };
 		4D25AD5A58DE24A029F0BC0AF1A1106D /* paraiso-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "paraiso-light.min.css"; path = "Pod/Assets/styles/paraiso-light.min.css"; sourceTree = "<group>"; };
@@ -314,9 +312,9 @@
 		553C25716A9189340B974B5F1C0EA294 /* idea.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = idea.min.css; path = Pod/Assets/styles/idea.min.css; sourceTree = "<group>"; };
 		555DE1718D5DD81E7125BCC2C84889B1 /* Highlightr-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Highlightr-macOS.modulemap"; path = "../Highlightr-macOS/Highlightr-macOS.modulemap"; sourceTree = "<group>"; };
 		563368F1C6F109FC28E51820D77E1D46 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
-		5753C50ACF1200B93A5D178DBC10A763 /* Pods_Highlightr_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Highlightr_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		586B2DFCC1371B95E4D53FEB39B622DF /* gml.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = gml.min.css; path = Pod/Assets/styles/gml.min.css; sourceTree = "<group>"; };
 		58FD3C60225504F14DE8E9A62AA88781 /* github.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = github.min.css; path = Pod/Assets/styles/github.min.css; sourceTree = "<group>"; };
+		5A3575C0F9B02C18FEDCA21E3483A720 /* Pods-SyntaxKit iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SyntaxKit iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		5AC59C8271BF23A961BC87C9DC22E059 /* gruvbox-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "gruvbox-light.min.css"; path = "Pod/Assets/styles/gruvbox-light.min.css"; sourceTree = "<group>"; };
 		5B6F029C852FE0870A515DC82F07AE71 /* obsidian.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = obsidian.min.css; path = Pod/Assets/styles/obsidian.min.css; sourceTree = "<group>"; };
 		5C8A52C85013684C0306281F2B5BC761 /* atelier-plateau-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-plateau-light.min.css"; path = "Pod/Assets/styles/atelier-plateau-light.min.css"; sourceTree = "<group>"; };
@@ -324,7 +322,7 @@
 		6243929E57110E1623DD4C1F1C98552C /* atelier-heath-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-heath-dark.min.css"; path = "Pod/Assets/styles/atelier-heath-dark.min.css"; sourceTree = "<group>"; };
 		6331D51011FA528FC7121D6BA4C006F3 /* dracula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = dracula.min.css; path = Pod/Assets/styles/dracula.min.css; sourceTree = "<group>"; };
 		65AB3C0FAEBFA0FA4745BB7286E242FB /* Highlightr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Highlightr.swift; path = Pod/Classes/Highlightr.swift; sourceTree = "<group>"; };
-		663DA81CD3D8977A31A8BEFD82C34B41 /* Pods-Highlightr_OSX_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Highlightr_OSX_Example.release.xcconfig"; sourceTree = "<group>"; };
+		666983A252419D78EF1EC92A01935BF8 /* Pods-SyntaxKit macOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SyntaxKit macOS-frameworks.sh"; sourceTree = "<group>"; };
 		6780C14291A422C534902AD9DF062B6A /* CodeAttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodeAttributedString.swift; path = Pod/Classes/CodeAttributedString.swift; sourceTree = "<group>"; };
 		68BF09C47DA76D27DDBD69004AC2E5AD /* atelier-dune-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-dune-dark.min.css"; path = "Pod/Assets/styles/atelier-dune-dark.min.css"; sourceTree = "<group>"; };
 		69B0FD2EEC14A763B33EC304C530E190 /* highlight.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = highlight.min.js; path = Pod/Assets/Highlighter/highlight.min.js; sourceTree = "<group>"; };
@@ -334,41 +332,44 @@
 		710BE43D2B582CE05DD4006E41C4DF44 /* color-brewer.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "color-brewer.min.css"; path = "Pod/Assets/styles/color-brewer.min.css"; sourceTree = "<group>"; };
 		71DB011FB00BC34DBFC72683BD175CE2 /* atom-one-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atom-one-light.min.css"; path = "Pod/Assets/styles/atom-one-light.min.css"; sourceTree = "<group>"; };
 		720BFDD3C688D7F2FEEE46C6856E0814 /* tomorrow-night-eighties.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "tomorrow-night-eighties.min.css"; path = "Pod/Assets/styles/tomorrow-night-eighties.min.css"; sourceTree = "<group>"; };
+		734A6CEB3D2CB05C6CAC89163EEE7F77 /* Pods-SyntaxKit iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SyntaxKit iOS-umbrella.h"; sourceTree = "<group>"; };
 		73941768E543807EC7DA149634F0A0FF /* atom-one-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atom-one-dark.min.css"; path = "Pod/Assets/styles/atom-one-dark.min.css"; sourceTree = "<group>"; };
-		7824ED9CC6BF13C317F8E14CF722206F /* Pods-Highlightr_OSX_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Highlightr_OSX_Example.modulemap"; sourceTree = "<group>"; };
+		7AE68EC270779A52D2E3028E88565037 /* Pods-SyntaxKit iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SyntaxKit iOS-Info.plist"; sourceTree = "<group>"; };
 		7E73B5AB957ECFD21B073C3901F006AE /* shades-of-purple.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "shades-of-purple.min.css"; path = "Pod/Assets/styles/shades-of-purple.min.css"; sourceTree = "<group>"; };
 		7EFC3F17EDFA8BD51D7D2399553ABEA5 /* ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
 		7F01767BB62D65F4268DE28FE28456D0 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
 		7FF2D896C2A1092A97C664D44704D5DB /* github-gist.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "github-gist.min.css"; path = "Pod/Assets/styles/github-gist.min.css"; sourceTree = "<group>"; };
 		826D707FC02F221A7C9310983AEEC8BF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		82991F583839308C14862DF5B63307B2 /* pojoaque.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = pojoaque.min.css; path = Pod/Assets/styles/pojoaque.min.css; sourceTree = "<group>"; };
-		86605672C557F0233A408363B4C6FA04 /* Pods-Highlightr_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Highlightr_Example-Info.plist"; sourceTree = "<group>"; };
 		86D4C56F54D20F1E5D2571F6D4C87B9C /* Highlightr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Highlightr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E7C418572E80DDE84C2B559F137411 /* sunburst.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = sunburst.min.css; path = Pod/Assets/styles/sunburst.min.css; sourceTree = "<group>"; };
 		8ABF41FCA043DCADDE179B52D16BCA2B /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
 		8C75F3FB68354D80BA9F57C22CBC3534 /* androidstudio.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = androidstudio.min.css; path = Pod/Assets/styles/androidstudio.min.css; sourceTree = "<group>"; };
-		8EB09151AAC7B5FF0C48BDFBCF2496A7 /* Pods-Highlightr_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Highlightr_Example-dummy.m"; sourceTree = "<group>"; };
+		8D78EBB4FA625AC86EF95BEB3EB08292 /* Pods-SyntaxKit iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SyntaxKit iOS-dummy.m"; sourceTree = "<group>"; };
 		8F62258A6361F0992A37734DF124BFF8 /* tomorrow.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = tomorrow.min.css; path = Pod/Assets/styles/tomorrow.min.css; sourceTree = "<group>"; };
 		8FC425002FEB53C1DCE0E7B18AF9C7F0 /* darcula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = darcula.min.css; path = Pod/Assets/styles/darcula.min.css; sourceTree = "<group>"; };
 		901A07076A2CA0512DDC4EA98025BB38 /* grayscale.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = grayscale.min.css; path = Pod/Assets/styles/grayscale.min.css; sourceTree = "<group>"; };
 		90D61F1F790B8745A921695B99DFBCCB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		90E4D08CC9CAA112551D350A0DCC6333 /* rainbow.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = rainbow.min.css; path = Pod/Assets/styles/rainbow.min.css; sourceTree = "<group>"; };
+		921492D388DE780BDE67D10BAB556255 /* Pods-SyntaxKit macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SyntaxKit macOS-Info.plist"; sourceTree = "<group>"; };
 		9250751B4E0B1B2D52E0EC48C27B248C /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
 		93627CA0CD41559900CA94C5DD688964 /* default.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = default.min.css; path = Pod/Assets/styles/default.min.css; sourceTree = "<group>"; };
+		949B1F2E98A9F2E3DB336EE223F887DD /* Pods-SyntaxKit macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SyntaxKit macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		96F1470B657A2BDA6806A3B6A004F45E /* Highlightr-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Highlightr-iOS-umbrella.h"; sourceTree = "<group>"; };
 		978662A188FDF00C4BB099FEF663A5D9 /* atelier-forest-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-forest-dark.min.css"; path = "Pod/Assets/styles/atelier-forest-dark.min.css"; sourceTree = "<group>"; };
 		982EB3658A816598387D5CCEA32272A9 /* atelier-dune-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-dune-light.min.css"; path = "Pod/Assets/styles/atelier-dune-light.min.css"; sourceTree = "<group>"; };
 		983A72CEA7310EFE3AC9730BFF510240 /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetMultipleStringPicker.m; path = Pickers/ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
 		9904BC5AC86269AC0A805E9219363435 /* far.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = far.min.css; path = Pod/Assets/styles/far.min.css; sourceTree = "<group>"; };
+		99977457DFE4FF4CFE38578389B39A27 /* Pods-SyntaxKit iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SyntaxKit iOS.modulemap"; sourceTree = "<group>"; };
+		9AB9354E81AD9A3E26BF9F3C1536B3FD /* Pods-SyntaxKit macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SyntaxKit macOS-dummy.m"; sourceTree = "<group>"; };
 		9C019A35E1F422E4A7D19AB6EE744088 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Pod/Classes/Theme.swift; sourceTree = "<group>"; };
 		9CB0EABDF89472975E9BF23071360D80 /* ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F647613CEFD0E96BC39B106DADD16A7 /* Pods-Highlightr_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Highlightr_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A1DFA44924F24ED6EDA069AF4801ACE9 /* Pods_Highlightr_OSX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Highlightr_OSX_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2002A5688FCB5BDE8D5B677BF59E2D2 /* a11y-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "a11y-light.min.css"; path = "Pod/Assets/styles/a11y-light.min.css"; sourceTree = "<group>"; };
 		A22F23CC67646A77F69828D90769FFAE /* kimbie.dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = kimbie.dark.min.css; path = Pod/Assets/styles/kimbie.dark.min.css; sourceTree = "<group>"; };
 		A2B4E86B1BFD3EE20CE54D3ACEAD2FD6 /* qtcreator_dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = qtcreator_dark.min.css; path = Pod/Assets/styles/qtcreator_dark.min.css; sourceTree = "<group>"; };
 		A419CD0DFFAF834FFAE92F71E7800617 /* xt256.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = xt256.min.css; path = Pod/Assets/styles/xt256.min.css; sourceTree = "<group>"; };
+		A52AAF276FB42890C63F4C6784D72FB7 /* Pods-SyntaxKit iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SyntaxKit iOS-frameworks.sh"; sourceTree = "<group>"; };
 		A756131D0EABC8D0690F48DD7214D54E /* atelier-sulphurpool-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-sulphurpool-light.min.css"; path = "Pod/Assets/styles/atelier-sulphurpool-light.min.css"; sourceTree = "<group>"; };
 		A7654B85BAE99325D0843FC4AB64BBE5 /* atelier-heath-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-heath-light.min.css"; path = "Pod/Assets/styles/atelier-heath-light.min.css"; sourceTree = "<group>"; };
 		A776254173B4DD77B5B47935CED2A004 /* zenburn.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = zenburn.min.css; path = Pod/Assets/styles/zenburn.min.css; sourceTree = "<group>"; };
@@ -383,46 +384,45 @@
 		B6053663E43FD4C528451FAEA446D6EE /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
 		B792A194FC1F1970D5670987C591DF5B /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetMultipleStringPicker.h; path = Pickers/ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
 		B8461D3ABFE5F095E563960D2D5A7047 /* Highlightr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Highlightr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA34CE35B7ADC33D0133A436E5525B70 /* Pods-SyntaxKit iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyntaxKit iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		BA84CAB91D860333BC774100942AD467 /* hybrid.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = hybrid.min.css; path = Pod/Assets/styles/hybrid.min.css; sourceTree = "<group>"; };
 		BAA16D83BC65326E8B6DDECBE1393C06 /* arta.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = arta.min.css; path = Pod/Assets/styles/arta.min.css; sourceTree = "<group>"; };
 		BB15A218BE33B6E624814216B566812C /* tomorrow-night-bright.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "tomorrow-night-bright.min.css"; path = "Pod/Assets/styles/tomorrow-night-bright.min.css"; sourceTree = "<group>"; };
 		BBE614D35CA12107B364AD8FFDDB7098 /* Shims.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shims.swift; path = Pod/Classes/Shims.swift; sourceTree = "<group>"; };
 		BC695F2011629C11D865EE3C7FFA8E2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C26012737675FCDDD49912476DB00778 /* Pods-Highlightr_OSX_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Highlightr_OSX_Example-dummy.m"; sourceTree = "<group>"; };
 		C4108FB3230C09B56D410DF3DF439466 /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
 		C54BF9AA27277921C6D0651987C22970 /* Highlightr-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Highlightr-iOS.xcconfig"; sourceTree = "<group>"; };
+		C6A7B7E12E9624F506D16475CD50F0A8 /* Pods_SyntaxKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SyntaxKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88C866F63F9D6964B0FC5139867F4BF /* magula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = magula.min.css; path = Pod/Assets/styles/magula.min.css; sourceTree = "<group>"; };
 		CA3FA91AFA335EBC97DD0418439B16BB /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
 		CD2CD773D459616F038AAC427A2A67A9 /* googlecode.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = googlecode.min.css; path = Pod/Assets/styles/googlecode.min.css; sourceTree = "<group>"; };
 		CE5FEC232F6CC66A45F3B8835E43C6F0 /* vs2015.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = vs2015.min.css; path = Pod/Assets/styles/vs2015.min.css; sourceTree = "<group>"; };
 		CEDA8BF325B112CBA9FADF0C2A301D59 /* gruvbox-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "gruvbox-dark.min.css"; path = "Pod/Assets/styles/gruvbox-dark.min.css"; sourceTree = "<group>"; };
 		D1158569361BA58A92D568B5C4A4F07A /* atelier-cave-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-cave-light.min.css"; path = "Pod/Assets/styles/atelier-cave-light.min.css"; sourceTree = "<group>"; };
-		D1AC18E73D575375579F38B8C713C8B6 /* Pods-Highlightr_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Highlightr_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D3EF555BE5AC50B810C9B9146E491EDC /* atom-one-dark-reasonable.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atom-one-dark-reasonable.min.css"; path = "Pod/Assets/styles/atom-one-dark-reasonable.min.css"; sourceTree = "<group>"; };
+		D557E3146E31BD94B2E5B885F28BD9FA /* Pods-SyntaxKit macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyntaxKit macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D638EF4BA452C6D5A3DCDEC56118DA25 /* Highlightr-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Highlightr-macOS-dummy.m"; path = "../Highlightr-macOS/Highlightr-macOS-dummy.m"; sourceTree = "<group>"; };
 		D6E470A0C684D4FBC08BDF7A28A2A38B /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActionSheetPicker_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9228343ADB9EE1719C0FA371C89DF8C /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
 		D98CB32A6741362DE2FC1BDC3A78F599 /* atelier-plateau-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-plateau-dark.min.css"; path = "Pod/Assets/styles/atelier-plateau-dark.min.css"; sourceTree = "<group>"; };
+		DC3921B10082FE05038767E9ED3A3CF8 /* Pods-SyntaxKit iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyntaxKit iOS.release.xcconfig"; sourceTree = "<group>"; };
 		DCF5FEFD9F9FE392BC6008E2D28454F1 /* paraiso-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "paraiso-dark.min.css"; path = "Pod/Assets/styles/paraiso-dark.min.css"; sourceTree = "<group>"; };
 		DEF38B1440AF425049791C1E5CADA089 /* atelier-seaside-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-seaside-dark.min.css"; path = "Pod/Assets/styles/atelier-seaside-dark.min.css"; sourceTree = "<group>"; };
 		E5FC17CB1AA0CAEBCE525C93B5D643F2 /* atelier-estuary-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-estuary-dark.min.css"; path = "Pod/Assets/styles/atelier-estuary-dark.min.css"; sourceTree = "<group>"; };
 		E631489AEB51EE3D4011E3184F6E28D3 /* ActionSheetPicker-3.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ActionSheetPicker-3.0-Info.plist"; sourceTree = "<group>"; };
-		E66E9BBA1CDA958908CBF601A874B4E4 /* Pods-Highlightr_OSX_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Highlightr_OSX_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E996CED961AA152BBD87AC318D063BF5 /* atelier-forest-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-forest-light.min.css"; path = "Pod/Assets/styles/atelier-forest-light.min.css"; sourceTree = "<group>"; };
-		EB8EB6D4F8FBEE2358BBA3ABC860497A /* Pods-Highlightr_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Highlightr_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ED66B69AE8CB2B43309E72C6F086DF60 /* Highlightr-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Highlightr-iOS.modulemap"; sourceTree = "<group>"; };
 		EDC17408C117493227B11AB70A235440 /* atelier-savanna-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-savanna-light.min.css"; path = "Pod/Assets/styles/atelier-savanna-light.min.css"; sourceTree = "<group>"; };
 		EFE2A8947A7050DE388FD579DBA936C9 /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
 		F00F2709C30334B19F7590EC286DE673 /* atelier-estuary-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-estuary-light.min.css"; path = "Pod/Assets/styles/atelier-estuary-light.min.css"; sourceTree = "<group>"; };
-		F08A8BF2A4FA6B5A0EE82A4E1C9C9812 /* Pods-Highlightr_OSX_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Highlightr_OSX_Example-Info.plist"; sourceTree = "<group>"; };
+		F5769E4E3FAF5774D81613184F31EF62 /* Pods-SyntaxKit iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SyntaxKit iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F64658AB592D9353F6C62826E8E87AF9 /* routeros.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = routeros.min.css; path = Pod/Assets/styles/routeros.min.css; sourceTree = "<group>"; };
-		FA3B9572405BDAEA813372443282608F /* Pods-Highlightr_OSX_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Highlightr_OSX_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F90D1BEE74C0B859BE7CB98C2F318BDD /* Pods-SyntaxKit macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SyntaxKit macOS-umbrella.h"; sourceTree = "<group>"; };
 		FAE5AFECDE8E32D89B27E2E8880FC656 /* arduino-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "arduino-light.min.css"; path = "Pod/Assets/styles/arduino-light.min.css"; sourceTree = "<group>"; };
 		FB27467218DEBC31D1C3749353D2EB43 /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
 		FC03C1622C09C36724674FDC2EABFBBF /* ocean.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = ocean.min.css; path = Pod/Assets/styles/ocean.min.css; sourceTree = "<group>"; };
 		FC92A98E4A0F96D7CBDF5E4C72D6214E /* qtcreator_light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = qtcreator_light.min.css; path = Pod/Assets/styles/qtcreator_light.min.css; sourceTree = "<group>"; };
 		FEF14F250EFF31FE9B8DDB970E1BBE33 /* an-old-hope.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "an-old-hope.min.css"; path = "Pod/Assets/styles/an-old-hope.min.css"; sourceTree = "<group>"; };
-		FF3C5AFEEA699E7951754BEA2957B21D /* Pods-Highlightr_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Highlightr_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -435,11 +435,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B35CEB6A305701298E10FA9BA440144 /* Frameworks */ = {
+		4ED173F8EA22040D4FBAF8A09085D634 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D700163F0E5F53D68822323932FFCF90 /* Foundation.framework in Frameworks */,
+				FC5418C6C67F83C980B0619E8F4B74E0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,11 +452,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C10C67433AA9CCE39581AE79E66329C /* Frameworks */ = {
+		A9674AE461D4BEAB607A55BE5B4B9854 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				799BD90EF2BD5635FFC4A6F0239FC707 /* Cocoa.framework in Frameworks */,
+				FE80F3E08CBD4C74416A5B5CE8596D5F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,33 +472,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		208007C718B6D795EDDA217F0D29C688 /* Products */ = {
+		0B608D0C0FFC4B1FC1F70F4EB870A90F /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				D6E470A0C684D4FBC08BDF7A28A2A38B /* ActionSheetPicker_3_0.framework */,
 				86D4C56F54D20F1E5D2571F6D4C87B9C /* Highlightr.framework */,
 				B8461D3ABFE5F095E563960D2D5A7047 /* Highlightr.framework */,
-				5753C50ACF1200B93A5D178DBC10A763 /* Pods_Highlightr_Example.framework */,
-				A1DFA44924F24ED6EDA069AF4801ACE9 /* Pods_Highlightr_OSX_Example.framework */,
+				C6A7B7E12E9624F506D16475CD50F0A8 /* Pods_SyntaxKit_iOS.framework */,
+				0F74C5B0801DBC2D36B58623B8EBCFE3 /* Pods_SyntaxKit_macOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		43D10A2F4AA14D985B4BFA31F13E9BBA /* Pods-Highlightr_Example */ = {
+		1FDC34FE029E135FABD930FAB48EB7BF /* Pods-SyntaxKit iOS */ = {
 			isa = PBXGroup;
 			children = (
-				21FB79A9E602F900DC3BEDE4BBD0EEE2 /* Pods-Highlightr_Example.modulemap */,
-				9F647613CEFD0E96BC39B106DADD16A7 /* Pods-Highlightr_Example-acknowledgements.markdown */,
-				38DA542D3067266439E6A63433102209 /* Pods-Highlightr_Example-acknowledgements.plist */,
-				8EB09151AAC7B5FF0C48BDFBCF2496A7 /* Pods-Highlightr_Example-dummy.m */,
-				D1AC18E73D575375579F38B8C713C8B6 /* Pods-Highlightr_Example-frameworks.sh */,
-				86605672C557F0233A408363B4C6FA04 /* Pods-Highlightr_Example-Info.plist */,
-				184730E33B0BBCF1CEB9D311947AC09B /* Pods-Highlightr_Example-umbrella.h */,
-				EB8EB6D4F8FBEE2358BBA3ABC860497A /* Pods-Highlightr_Example.debug.xcconfig */,
-				FF3C5AFEEA699E7951754BEA2957B21D /* Pods-Highlightr_Example.release.xcconfig */,
+				99977457DFE4FF4CFE38578389B39A27 /* Pods-SyntaxKit iOS.modulemap */,
+				F5769E4E3FAF5774D81613184F31EF62 /* Pods-SyntaxKit iOS-acknowledgements.markdown */,
+				5A3575C0F9B02C18FEDCA21E3483A720 /* Pods-SyntaxKit iOS-acknowledgements.plist */,
+				8D78EBB4FA625AC86EF95BEB3EB08292 /* Pods-SyntaxKit iOS-dummy.m */,
+				A52AAF276FB42890C63F4C6784D72FB7 /* Pods-SyntaxKit iOS-frameworks.sh */,
+				7AE68EC270779A52D2E3028E88565037 /* Pods-SyntaxKit iOS-Info.plist */,
+				734A6CEB3D2CB05C6CAC89163EEE7F77 /* Pods-SyntaxKit iOS-umbrella.h */,
+				BA34CE35B7ADC33D0133A436E5525B70 /* Pods-SyntaxKit iOS.debug.xcconfig */,
+				DC3921B10082FE05038767E9ED3A3CF8 /* Pods-SyntaxKit iOS.release.xcconfig */,
 			);
-			name = "Pods-Highlightr_Example";
-			path = "Target Support Files/Pods-Highlightr_Example";
+			name = "Pods-SyntaxKit iOS";
+			path = "Target Support Files/Pods-SyntaxKit iOS";
 			sourceTree = "<group>";
 		};
 		54944AE50B13F7B1A5699EC110F85684 /* Resources */ = {
@@ -630,21 +630,13 @@
 			path = "../Target Support Files/ActionSheetPicker-3.0";
 			sourceTree = "<group>";
 		};
-		96D4B548CDCA26E546EF2B9A75A6E027 /* Pods-Highlightr_OSX_Example */ = {
+		7D4B63D54E0DD9FEFBBCEA4C431B837A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7824ED9CC6BF13C317F8E14CF722206F /* Pods-Highlightr_OSX_Example.modulemap */,
-				4AD7C49B32A11AB11C0C8026BF69EC61 /* Pods-Highlightr_OSX_Example-acknowledgements.markdown */,
-				16818AEC41929C1AE465F72461BA61CB /* Pods-Highlightr_OSX_Example-acknowledgements.plist */,
-				C26012737675FCDDD49912476DB00778 /* Pods-Highlightr_OSX_Example-dummy.m */,
-				E66E9BBA1CDA958908CBF601A874B4E4 /* Pods-Highlightr_OSX_Example-frameworks.sh */,
-				F08A8BF2A4FA6B5A0EE82A4E1C9C9812 /* Pods-Highlightr_OSX_Example-Info.plist */,
-				0666675A01B77C373C4A4CBE194B01A5 /* Pods-Highlightr_OSX_Example-umbrella.h */,
-				FA3B9572405BDAEA813372443282608F /* Pods-Highlightr_OSX_Example.debug.xcconfig */,
-				663DA81CD3D8977A31A8BEFD82C34B41 /* Pods-Highlightr_OSX_Example.release.xcconfig */,
+				1FDC34FE029E135FABD930FAB48EB7BF /* Pods-SyntaxKit iOS */,
+				AB488D2A8B787D484D6BC5377A911BC9 /* Pods-SyntaxKit macOS */,
 			);
-			name = "Pods-Highlightr_OSX_Example";
-			path = "Target Support Files/Pods-Highlightr_OSX_Example";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		A1F5361CE1E47EA100A63F9048F007A5 /* ActionSheetPicker-3.0 */ = {
@@ -698,13 +690,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		AEFB6E311030FDF79F2E36059686DCA5 /* Targets Support Files */ = {
+		AB488D2A8B787D484D6BC5377A911BC9 /* Pods-SyntaxKit macOS */ = {
 			isa = PBXGroup;
 			children = (
-				43D10A2F4AA14D985B4BFA31F13E9BBA /* Pods-Highlightr_Example */,
-				96D4B548CDCA26E546EF2B9A75A6E027 /* Pods-Highlightr_OSX_Example */,
+				3181B073DD61B61B985B81B3BC28F7DF /* Pods-SyntaxKit macOS.modulemap */,
+				949B1F2E98A9F2E3DB336EE223F887DD /* Pods-SyntaxKit macOS-acknowledgements.markdown */,
+				09C36D5F83D37F343DD89DEA76C04318 /* Pods-SyntaxKit macOS-acknowledgements.plist */,
+				9AB9354E81AD9A3E26BF9F3C1536B3FD /* Pods-SyntaxKit macOS-dummy.m */,
+				666983A252419D78EF1EC92A01935BF8 /* Pods-SyntaxKit macOS-frameworks.sh */,
+				921492D388DE780BDE67D10BAB556255 /* Pods-SyntaxKit macOS-Info.plist */,
+				F90D1BEE74C0B859BE7CB98C2F318BDD /* Pods-SyntaxKit macOS-umbrella.h */,
+				D557E3146E31BD94B2E5B885F28BD9FA /* Pods-SyntaxKit macOS.debug.xcconfig */,
+				1B830DBBADF2065C95FD9BC8D1BBD842 /* Pods-SyntaxKit macOS.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-SyntaxKit macOS";
+			path = "Target Support Files/Pods-SyntaxKit macOS";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -713,8 +713,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				6EFB174C92A99F449D96508D19BFE160 /* Frameworks */,
 				EA130F71EB74129CF6E427BAEA8A37D4 /* Pods */,
-				208007C718B6D795EDDA217F0D29C688 /* Products */,
-				AEFB6E311030FDF79F2E36059686DCA5 /* Targets Support Files */,
+				0B608D0C0FFC4B1FC1F70F4EB870A90F /* Products */,
+				7D4B63D54E0DD9FEFBBCEA4C431B837A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -750,14 +750,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		05712F7D6C79F6EE71CEBC295B70755A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4B97A94D9F5E63FFF1269E03D6D3FF9 /* Pods-Highlightr_OSX_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		07253D426D2D987175260E489A26D459 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -766,11 +758,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C384DFD93B5193D60FC131047F6BCB0 /* Headers */ = {
+		7640A174C39A4B718B71FC1A55E89AE7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39C8589E0CFB0E54A044CA1B4EF7EAC3 /* Pods-Highlightr_Example-umbrella.h in Headers */,
+				82154DC2313B156EC43020A8473F9942 /* Pods-SyntaxKit macOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -779,6 +771,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B628AA49D7F83BB0E0ED21CD92BF2AA /* Highlightr-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F3069BDA13445164A71D97A811B7C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DAA6226BBCAA4F29979E7A4B0C6FE3 /* Pods-SyntaxKit iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -804,6 +804,45 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		22301FA317719B72C8AD472359C4ECA8 /* Pods-SyntaxKit macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7001DE69979B58D0E874442496406298 /* Build configuration list for PBXNativeTarget "Pods-SyntaxKit macOS" */;
+			buildPhases = (
+				7640A174C39A4B718B71FC1A55E89AE7 /* Headers */,
+				53AA7371A93F78DB6201BDB0D067DE5A /* Sources */,
+				A9674AE461D4BEAB607A55BE5B4B9854 /* Frameworks */,
+				44A8EBB54491E2A0A4D9CE3CE8B39B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBCA198F12E6989D5745B35F9F4DC309 /* PBXTargetDependency */,
+			);
+			name = "Pods-SyntaxKit macOS";
+			productName = "Pods-SyntaxKit macOS";
+			productReference = 0F74C5B0801DBC2D36B58623B8EBCFE3 /* Pods_SyntaxKit_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32D5E8BCD1B5E6ED3BBB4F4742384826 /* Pods-SyntaxKit iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8D7396100DC39CE3CE93171D770350 /* Build configuration list for PBXNativeTarget "Pods-SyntaxKit iOS" */;
+			buildPhases = (
+				E1F3069BDA13445164A71D97A811B7C9 /* Headers */,
+				2DB647558507B37322C41DEB22AD47AB /* Sources */,
+				4ED173F8EA22040D4FBAF8A09085D634 /* Frameworks */,
+				38A481A145FB92A5DA79337C35EF5972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27BEB14CB82B06994BC00D710123200B /* PBXTargetDependency */,
+				BE2B9F8368A8808E15A5CAA35D40F9CA /* PBXTargetDependency */,
+			);
+			name = "Pods-SyntaxKit iOS";
+			productName = "Pods-SyntaxKit iOS";
+			productReference = C6A7B7E12E9624F506D16475CD50F0A8 /* Pods_SyntaxKit_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		4B7AB76119455A902837FE59A745BCD4 /* Highlightr-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99D21831AACC7CC536C8E5C024224E65 /* Build configuration list for PBXNativeTarget "Highlightr-iOS" */;
@@ -820,45 +859,6 @@
 			name = "Highlightr-iOS";
 			productName = "Highlightr-iOS";
 			productReference = 86D4C56F54D20F1E5D2571F6D4C87B9C /* Highlightr.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		507BB6AB23D914D8451A7C8EE990784D /* Pods-Highlightr_OSX_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B1690A7461DB41BF673421E4311CF012 /* Build configuration list for PBXNativeTarget "Pods-Highlightr_OSX_Example" */;
-			buildPhases = (
-				05712F7D6C79F6EE71CEBC295B70755A /* Headers */,
-				E7DDAC3091699B83B453B220C465D303 /* Sources */,
-				7C10C67433AA9CCE39581AE79E66329C /* Frameworks */,
-				C535618DB1D9010B603BC64B3A578576 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				30903F74EB5A64104BC09B47EAF86B3A /* PBXTargetDependency */,
-			);
-			name = "Pods-Highlightr_OSX_Example";
-			productName = "Pods-Highlightr_OSX_Example";
-			productReference = A1DFA44924F24ED6EDA069AF4801ACE9 /* Pods_Highlightr_OSX_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6194EEB3C6DF592A99ED5DAA338E6C79 /* Pods-Highlightr_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B7D05CEC65268598C08A17CDE619D72 /* Build configuration list for PBXNativeTarget "Pods-Highlightr_Example" */;
-			buildPhases = (
-				5C384DFD93B5193D60FC131047F6BCB0 /* Headers */,
-				578E701185391D9B9C9507C033399337 /* Sources */,
-				2B35CEB6A305701298E10FA9BA440144 /* Frameworks */,
-				258B0B8F97A0AA24DD98D9682036E798 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FD56D5DB8E52724B55DFE1DA140D94AF /* PBXTargetDependency */,
-				20968B6E9C702139BE405FCA49947BCA /* PBXTargetDependency */,
-			);
-			name = "Pods-Highlightr_Example";
-			productName = "Pods-Highlightr_Example";
-			productReference = 5753C50ACF1200B93A5D178DBC10A763 /* Pods_Highlightr_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		880685C9261F0C1129934DC3D5E9B732 /* Highlightr-macOS */ = {
@@ -923,15 +923,15 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 208007C718B6D795EDDA217F0D29C688 /* Products */;
+			productRefGroup = 0B608D0C0FFC4B1FC1F70F4EB870A90F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */,
 				4B7AB76119455A902837FE59A745BCD4 /* Highlightr-iOS */,
 				880685C9261F0C1129934DC3D5E9B732 /* Highlightr-macOS */,
-				6194EEB3C6DF592A99ED5DAA338E6C79 /* Pods-Highlightr_Example */,
-				507BB6AB23D914D8451A7C8EE990784D /* Pods-Highlightr_OSX_Example */,
+				32D5E8BCD1B5E6ED3BBB4F4742384826 /* Pods-SyntaxKit iOS */,
+				22301FA317719B72C8AD472359C4ECA8 /* Pods-SyntaxKit macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -944,7 +944,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		258B0B8F97A0AA24DD98D9682036E798 /* Resources */ = {
+		38A481A145FB92A5DA79337C35EF5972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A8EBB54491E2A0A4D9CE3CE8B39B18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1045,13 +1052,6 @@
 				0796D6943123474B7FCECCCF94DCB255 /* xcode.min.css in Resources */,
 				88AAA02DBF37B6547FE15F5FE9918E02 /* xt256.min.css in Resources */,
 				C37B561EB1CC0C62981F4FCD4F66A9BA /* zenburn.min.css in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C535618DB1D9010B603BC64B3A578576 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1172,11 +1172,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		578E701185391D9B9C9507C033399337 /* Sources */ = {
+		2DB647558507B37322C41DEB22AD47AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0494FF89E756C5CE9CD49BDA783D6352 /* Pods-Highlightr_Example-dummy.m in Sources */,
+				5F4260A425D42DC6D88C2C8EB9731FA5 /* Pods-SyntaxKit iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53AA7371A93F78DB6201BDB0D067DE5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA1AAE87656F0530E60626A3C9BD277 /* Pods-SyntaxKit macOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1206,34 +1214,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7DDAC3091699B83B453B220C465D303 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F26FAAE5BFA5F01C0EE77F812D35DF69 /* Pods-Highlightr_OSX_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		20968B6E9C702139BE405FCA49947BCA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Highlightr-iOS";
-			target = 4B7AB76119455A902837FE59A745BCD4 /* Highlightr-iOS */;
-			targetProxy = 359F1D7FAB7FEDF6AFE1E8D7DB25AAB2 /* PBXContainerItemProxy */;
-		};
-		30903F74EB5A64104BC09B47EAF86B3A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Highlightr-macOS";
-			target = 880685C9261F0C1129934DC3D5E9B732 /* Highlightr-macOS */;
-			targetProxy = C2444E0F0887E9BE2DBFEFC29CABE360 /* PBXContainerItemProxy */;
-		};
-		FD56D5DB8E52724B55DFE1DA140D94AF /* PBXTargetDependency */ = {
+		27BEB14CB82B06994BC00D710123200B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ActionSheetPicker-3.0";
 			target = A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */;
-			targetProxy = C7B92A40DAC226774347B8890007D0B1 /* PBXContainerItemProxy */;
+			targetProxy = 2D13EF8BA68041D4BC12343853E560C6 /* PBXContainerItemProxy */;
+		};
+		BE2B9F8368A8808E15A5CAA35D40F9CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Highlightr-iOS";
+			target = 4B7AB76119455A902837FE59A745BCD4 /* Highlightr-iOS */;
+			targetProxy = 1138B2D8BB6ED9D88471814A6F98545C /* PBXContainerItemProxy */;
+		};
+		DBCA198F12E6989D5745B35F9F4DC309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Highlightr-macOS";
+			target = 880685C9261F0C1129934DC3D5E9B732 /* Highlightr-macOS */;
+			targetProxy = A6C4430DD8A37CDD467629906D9FEE51 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1300,6 +1300,40 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		260F4A6315A8EDD37DA8AD780DD9A794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3921B10082FE05038767E9ED3A3CF8 /* Pods-SyntaxKit iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SyntaxKit iOS/Pods-SyntaxKit iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SyntaxKit iOS/Pods-SyntaxKit iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		352880E26DB5819AB6037A8A36DB029B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1399,41 +1433,6 @@
 			};
 			name = Release;
 		};
-		3BDCE466F9CD07A890A1FB6B691D8FC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 663DA81CD3D8977A31A8BEFD82C34B41 /* Pods-Highlightr_OSX_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4AF61A2F715BBBAE53374AB9DE3F5515 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52FB099C1B2B0056BB9313053BD4DC9B /* ActionSheetPicker-3.0.xcconfig */;
@@ -1465,42 +1464,9 @@
 			};
 			name = Debug;
 		};
-		635E6D049DB1230A2B6716E3E2EC7AAF /* Debug */ = {
+		760F45E9F938283ACC273998DC95ECEB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB8EB6D4F8FBEE2358BBA3ABC860497A /* Pods-Highlightr_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6B530E03956B387C045427538DA10155 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3B9572405BDAEA813372443282608F /* Pods-Highlightr_OSX_Example.debug.xcconfig */;
+			baseConfigurationReference = 1B830DBBADF2065C95FD9BC8D1BBD842 /* Pods-SyntaxKit macOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1515,12 +1481,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SyntaxKit macOS/Pods-SyntaxKit macOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SyntaxKit macOS/Pods-SyntaxKit macOS.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1531,7 +1497,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		841E250BF79FFD376B085BE0E920E94F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1593,9 +1559,44 @@
 			};
 			name = Release;
 		};
-		A6BE0F7FF3155A5EED3587530AF7FE30 /* Release */ = {
+		C460697242B63FE33C33DF126D65435B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF3C5AFEEA699E7951754BEA2957B21D /* Pods-Highlightr_Example.release.xcconfig */;
+			baseConfigurationReference = D557E3146E31BD94B2E5B885F28BD9FA /* Pods-SyntaxKit macOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SyntaxKit macOS/Pods-SyntaxKit macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-SyntaxKit macOS/Pods-SyntaxKit macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C879ECEAE5986F3D76E47CE1AAD88CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA34CE35B7ADC33D0133A436E5525B70 /* Pods-SyntaxKit iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1607,12 +1608,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SyntaxKit iOS/Pods-SyntaxKit iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SyntaxKit iOS/Pods-SyntaxKit iOS.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1621,11 +1622,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		D903AE1544E3621E311805B6D753661F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1695,15 +1695,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B7D05CEC65268598C08A17CDE619D72 /* Build configuration list for PBXNativeTarget "Pods-Highlightr_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				635E6D049DB1230A2B6716E3E2EC7AAF /* Debug */,
-				A6BE0F7FF3155A5EED3587530AF7FE30 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1731,6 +1722,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7001DE69979B58D0E874442496406298 /* Build configuration list for PBXNativeTarget "Pods-SyntaxKit macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C460697242B63FE33C33DF126D65435B /* Debug */,
+				760F45E9F938283ACC273998DC95ECEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		99D21831AACC7CC536C8E5C024224E65 /* Build configuration list for PBXNativeTarget "Highlightr-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1740,11 +1740,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1690A7461DB41BF673421E4311CF012 /* Build configuration list for PBXNativeTarget "Pods-Highlightr_OSX_Example" */ = {
+		EE8D7396100DC39CE3CE93171D770350 /* Build configuration list for PBXNativeTarget "Pods-SyntaxKit iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B530E03956B387C045427538DA10155 /* Debug */,
-				3BDCE466F9CD07A890A1FB6B691D8FC0 /* Release */,
+				C879ECEAE5986F3D76E47CE1AAD88CC1 /* Debug */,
+				260F4A6315A8EDD37DA8AD780DD9A794 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

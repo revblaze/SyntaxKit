@@ -1,0 +1,56 @@
+//
+//  AppDelegate.swift
+//  SyntaxKit macOS
+//
+//  Highlightr
+//  Created by Illanes, Juan Pablo on 5/14/16.
+//
+//  SyntaxKit
+//  Created by Justin Bush on 2018-09-21.
+//  Copyright © 2020 Justin Bush. All rights reserved.
+//
+
+import Cocoa
+import Highlightr
+
+@NSApplicationMain
+class AppDelegate: NSObject, NSApplicationDelegate {
+
+    @IBOutlet weak var window: NSWindow!
+    
+    var textView : NSTextView!
+    let textStorage = CodeAttributedString()
+
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
+        // Insert code here to initialize your application
+        
+        textStorage.language = "Swift"
+        textStorage.highlightr.setTheme(to: "Pojoaque")
+        textStorage.highlightr.theme.codeFont = NSFont(name: "Courier", size: 12)
+        
+        let code = try! String.init(contentsOfFile: Bundle.main.path(forResource: "sampleCode", ofType: "txt")!)
+        textStorage.setAttributedString(NSAttributedString(string: code))
+        
+        let layoutManager = NSLayoutManager()
+        textStorage.addLayoutManager(layoutManager)
+        
+        let textContainer = NSTextContainer(size:(window.contentView?.bounds.size)!)
+        layoutManager.addTextContainer(textContainer)
+        
+        
+        textView = NSTextView(frame: (window.contentView?.bounds)!, textContainer: textContainer)
+        textView.autoresizingMask = [.width,.height]
+        textView.translatesAutoresizingMaskIntoConstraints = true
+        textView.backgroundColor = (textStorage.highlightr.theme.themeBackgroundColor)!
+        textView.insertionPointColor = NSColor.white
+        window.contentView?.addSubview(textView)
+        
+    }
+
+    func applicationWillTerminate(_ aNotification: Notification) {
+        // Insert code here to tear down your application
+    }
+
+
+}
+
