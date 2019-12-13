@@ -50,7 +50,7 @@ class SampleCode: UIViewController {
         
         let themeTitle = themeName.text?.replacingOccurrences(of: "-", with: " ", options: .literal, range: nil)
         navigationItem.title = languageName.text
-        navigationItem.prompt = themeTitle //themeName.text
+        navigationItem.prompt = themeTitle
         
         textStorage.language = languageName.text?.lowercased()
         let layoutManager = NSLayoutManager()

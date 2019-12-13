@@ -18,11 +18,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
     
-    var textView : NSTextView!
+    var textView: NSTextView!
     let textStorage = CodeAttributedString()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        window = NSApplication.shared.windows[0]
+        NSApp.activate(ignoringOtherApps: true)
         
         textStorage.language = "Swift"
         textStorage.highlightr.setTheme(to: "Pojoaque")
@@ -43,14 +44,23 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         textView.translatesAutoresizingMaskIntoConstraints = true
         textView.backgroundColor = (textStorage.highlightr.theme.themeBackgroundColor)!
         textView.insertionPointColor = NSColor.white
+        
         window.contentView?.addSubview(textView)
         
+    }
+    
+    // Handles Reopening of Main Window
+    func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
+        if !flag {
+            window.makeKeyAndOrderFront(nil)
+            NSApp.activate(ignoringOtherApps: true)
+        }
+        return true
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-
 
 }
 
