@@ -44,7 +44,7 @@
 		4DC43B7F21557C66007F8172 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4DC43B8121557C7E007F8172 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57EE881054C2891F380DCAF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* Highlightr_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Highlightr_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* SyntaxKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyntaxKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* Highlightr_Example.app */,
+				607FACD01AFB9204008FA782 /* SyntaxKit.app */,
 				607FACE51AFB9204008FA782 /* Highlightr_Tests.xctest */,
 				8C9564261CE79E5200C0C7FA /* Highlightr_OSX_Example.app */,
 			);
@@ -223,7 +223,7 @@
 			);
 			name = Highlightr_Example;
 			productName = Highlightr;
-			productReference = 607FACD01AFB9204008FA782 /* Highlightr_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* SyntaxKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* Highlightr_Tests */ = {
@@ -287,7 +287,7 @@
 					8C9564251CE79E5200C0C7FA = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 85N3S3DG8M;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1130;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -596,8 +596,8 @@
 				INFOPLIST_FILE = Highlightr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.justinbush.SyntaxDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.justinbush.SyntaxKit;
+				PRODUCT_NAME = SyntaxKit;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -612,8 +612,8 @@
 				INFOPLIST_FILE = Highlightr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.justinbush.SyntaxDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.justinbush.SyntaxKit;
+				PRODUCT_NAME = SyntaxKit;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -665,11 +665,11 @@
 				INFOPLIST_FILE = Highlightr_OSX_Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.raspu.Highlightr-OSX-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.justinbush.SyntaxKit-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -687,11 +687,11 @@
 				INFOPLIST_FILE = Highlightr_OSX_Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.raspu.Highlightr-OSX-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.justinbush.SyntaxKit-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
