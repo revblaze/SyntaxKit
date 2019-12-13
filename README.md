@@ -1,5 +1,5 @@
 # SyntaxKit Demo
-A solid framework for presenting a programming language on the iOS platform. Built for compatibility with real-time syntax highlighting when programming. Updated for iOS 12 and iPhone XS.
+A solid framework for presenting a programming language on the iOS and macOS platforms. Built for compatibility with real-time syntax highlighting when programming. Updated for iOS 13, macOS 10.15 (Catalina) and iPhone 11 Max/Pro.
 
 <img src="Cover.png" width="860" />
 
@@ -12,12 +12,14 @@ None as of yet.
 None as of yet.
 
 ## Requirements
-Requires iOS 10.0 or later.
-<i>Please note that the app is being built with Swift 4.2</i>
+ - Requires iOS 9.0 or later.
+ - Requires macOS 10.11 or later.
+ 
+ <i>Please note that the app is being built with Swift 5.</i>
 
 ## MIT License
 
-Copyright © 2019 Justin Bush. All rights reserved.
+Copyright © 2020 Justin Bush. All rights reserved.
 
 ```
 Permission is hereby granted, free of charge, to any person obtaining a copy

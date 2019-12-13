@@ -3,6 +3,7 @@
 //  Highlightr
 //
 //  Created by Illanes, J.P. on 5/5/16.
+//  SyntaxKit by Justin Bush (13/12/2019)
 //
 
 import UIKit
@@ -35,6 +36,7 @@ class SampleCode: UIViewController {
             self.setNeedsStatusBarAppearanceUpdate()
         }
     }
+    
     override var prefersStatusBarHidden: Bool {
         return isHidden
     }
@@ -90,10 +92,7 @@ class SampleCode: UIViewController {
                 self.languageName.text = language.capitalized
                 let snippetPath = Bundle.main.path(forResource: "default", ofType: "txt", inDirectory: "Samples/\(language)", forLocalization: nil)
                 let snippet = try! String(contentsOfFile: snippetPath!)
-                let themeTitle = self.themeName.text?.replacingOccurrences(of: "-", with: " ", options: .literal, range: nil)
                 self.textView.text = snippet
-                self.navigationItem.title = self.languageName.text
-                self.navigationItem.prompt = themeTitle //self.themeName.text
                 self.updateColors()
             },
                                      cancel: nil,
@@ -144,22 +143,19 @@ class SampleCode: UIViewController {
                                      doneBlock:
             { picker, index, value in
                 let theme = value! as! String
-                let themeTitle = self.themeName.text?.replacingOccurrences(of: "-", with: " ", options: .literal, range: nil)
                 self.textStorage.highlightr.setTheme(to: theme)
                 self.themeName.text = theme.capitalized
-                self.navigationItem.title = self.languageName.text
-                self.navigationItem.prompt = themeTitle //self.themeName.text
                 self.updateColors()
             },
                                      cancel: nil,
                                                     origin: navigationController?.toolbar)
-        
     }
     
     @IBAction func hideKeyboard(_ sender: AnyObject?) {
         textView.resignFirstResponder()
     }
     
+    // Update colors for theme, title and prompt
     func updateColors() {
         textView.backgroundColor = highlightr.theme.themeBackgroundColor
         navigationController?.navigationBar.barTintColor = highlightr.theme.themeBackgroundColor
@@ -169,6 +165,10 @@ class SampleCode: UIViewController {
         navigationController?.toolbar.barTintColor = highlightr.theme.themeBackgroundColor //navigationController?.navigationBar.barTintColor
         navigationController?.toolbar.tintColor = invertColor(highlightr.theme.themeBackgroundColor) //navigationController?.navigationBar.tintColor
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: invertColor(highlightr.theme.themeBackgroundColor) ]
+        
+        let themeTitle = self.themeName.text?.replacingOccurrences(of: "-", with: " ", options: .literal, range: nil)
+        self.navigationItem.title = self.languageName.text
+        self.navigationItem.prompt = themeTitle
         
         // Update UIColor for Prompt Label
         for view in self.navigationController?.navigationBar.subviews ?? [] {
@@ -187,5 +187,4 @@ class SampleCode: UIViewController {
     }
     
 }
-
 

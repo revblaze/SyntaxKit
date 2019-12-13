@@ -5,6 +5,9 @@
 //  Created by Illanes, Juan Pablo on 04/10/2016.
 //  Copyright (c) 2016 Illanes, Juan Pablo. All rights reserved.
 //
+//  SyntaxKit by Justin Bush (13/12/2019)
+//  Copyright © 2019 Justin Bush. All rights reserved.
+//
 
 import UIKit
 
