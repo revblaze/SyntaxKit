@@ -904,7 +904,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					4B7AB76119455A902837FE59A745BCD4 = {
 						LastSwiftMigration = 1120;
@@ -1302,7 +1302,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C1A1E85BB85132FBC95E2B4BA78B653 /* Highlightr-macOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1336,7 +1335,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C1A1E85BB85132FBC95E2B4BA78B653 /* Highlightr-macOS.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1371,7 +1369,6 @@
 			baseConfigurationReference = 663DA81CD3D8977A31A8BEFD82C34B41 /* Pods-Highlightr_OSX_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1440,7 +1437,6 @@
 			baseConfigurationReference = FA3B9572405BDAEA813372443282608F /* Pods-Highlightr_OSX_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
