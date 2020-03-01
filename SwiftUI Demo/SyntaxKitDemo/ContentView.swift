@@ -13,10 +13,19 @@ import Combine
 import SwiftUI
 import Highlightr
 
+
 let code = try! String.init(contentsOfFile: Bundle.main.path(forResource: "sampleCode", ofType: "txt")!)
 
+struct Theme {
+    static let dark  = "tomorrow-night-blue"
+    static let light = "github"
+}
+
+
 struct ContentView: View {
+    @Environment(\.colorScheme) var colorScheme: ColorScheme
     var body: some View {
+        
         /*
         Text("Hello, World!")
             .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -58,7 +67,9 @@ struct EditorTextView: NSViewRepresentable {
         view.selectedRanges = context.coordinator.selectedRanges
     }
 }
-/*
+
+
+// Light Mode & Dark Mode Previews
 #if DEBUG
 struct EditorTextView_Previews: PreviewProvider {
     static var previews: some View {
@@ -75,7 +86,8 @@ struct EditorTextView_Previews: PreviewProvider {
     }
 }
 #endif
-*/
+
+ 
 extension EditorTextView {
     class Coordinator: NSObject, NSTextViewDelegate {
         var parent: EditorTextView
@@ -148,13 +160,29 @@ final class CustomTextView: NSView {
         return scrollView
     }()
     
+    @Environment(\.colorScheme) var colorScheme: ColorScheme
+    
     private lazy var textView: NSTextView = {
         let contentSize = scrollView.contentSize
         //let textStorage = NSTextStorage()
         let textStorage = CodeAttributedString()
         
+        var themeName = String(colorScheme == .light ? Theme.light : Theme.dark)
+        
         textStorage.language = "Swift"
         //textStorage.highlightr.setTheme(to: "Pojoaque")
+        //textStorage.highlightr.setTheme(to: "tomorrow-night-blue")
+        //textStorage.highlightr.setTheme(to: themeName)
+        
+        /*
+        if colorScheme == .light {
+            textStorage.highlightr.setTheme(to: Theme.light)
+        } else {
+            textStorage.highlightr.setTheme(to: Theme.dark)
+        }*/
+        
+        //textStorage.highlightr.setTheme(to: String(colorScheme == .light ? Theme.light : Theme.dark))
+        
         textStorage.highlightr.setTheme(to: "tomorrow-night-blue")
         textStorage.highlightr.theme.codeFont = NSFont(name: "Courier", size: 12)
         
