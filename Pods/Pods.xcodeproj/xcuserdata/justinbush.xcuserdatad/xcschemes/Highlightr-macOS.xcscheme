@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8C9564251CE79E5200C0C7FA"
-               BuildableName = "SyntaxKit macOS.app"
-               BlueprintName = "SyntaxKit macOS"
-               ReferencedContainer = "container:SyntaxKit.xcodeproj">
+               BlueprintIdentifier = "880685C9261F0C1129934DC3D5E9B732"
+               BuildableName = "Highlightr.framework"
+               BlueprintName = "Highlightr-macOS"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,16 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8C9564251CE79E5200C0C7FA"
-            BuildableName = "SyntaxKit macOS.app"
-            BlueprintName = "SyntaxKit macOS"
-            ReferencedContainer = "container:SyntaxKit.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -57,16 +47,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8C9564251CE79E5200C0C7FA"
-            BuildableName = "SyntaxKit macOS.app"
-            BlueprintName = "SyntaxKit macOS"
-            ReferencedContainer = "container:SyntaxKit.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
