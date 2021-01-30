@@ -26,11 +26,6 @@ struct ContentView: View {
     @Environment(\.colorScheme) var colorScheme: ColorScheme
     var body: some View {
         
-        /*
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-         */
-        
         EditorTextView(text: .constant(code))
         .environment(\.colorScheme, .dark)
         .previewDisplayName("Swift")
@@ -170,18 +165,6 @@ final class CustomTextView: NSView {
         var themeName = String(colorScheme == .light ? Theme.light : Theme.dark)
         
         textStorage.language = "Swift"
-        //textStorage.highlightr.setTheme(to: "Pojoaque")
-        //textStorage.highlightr.setTheme(to: "tomorrow-night-blue")
-        //textStorage.highlightr.setTheme(to: themeName)
-        
-        /*
-        if colorScheme == .light {
-            textStorage.highlightr.setTheme(to: Theme.light)
-        } else {
-            textStorage.highlightr.setTheme(to: Theme.dark)
-        }*/
-        
-        //textStorage.highlightr.setTheme(to: String(colorScheme == .light ? Theme.light : Theme.dark))
         
         textStorage.highlightr.setTheme(to: "tomorrow-night-blue")
         textStorage.highlightr.theme.codeFont = NSFont(name: "Courier", size: 12)
