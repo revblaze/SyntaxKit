@@ -22,7 +22,7 @@ None as of yet.
 
 ## MIT License
 
-Copyright © 2020 Justin Bush. All rights reserved.
+Copyright © 2018 Justin Bush. All rights reserved.
 
 ```
 Permission is hereby granted, free of charge, to any person obtaining a copy
